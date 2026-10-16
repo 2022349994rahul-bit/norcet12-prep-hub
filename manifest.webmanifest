@@ -1,0 +1,9 @@
+{
+  "name": "NORCET 12 Prep Hub",
+  "short_name": "NORCET Prep",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#f1f7fb",
+  "theme_color": "#075985",
+  "description": "Mobile-friendly NORCET nursing exam study and MCQ practice"
+}
