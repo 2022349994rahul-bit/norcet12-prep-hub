@@ -1,28 +1,16 @@
-# NORCET 12 Prep Hub
+NORCET 12 Prep Hub — Medical-Surgical Nursing module
 
-Mobile-friendly static study prototype for NORCET preparation.
+Current build: 12 topic areas, 600 practice MCQs, including a dedicated Myasthenia Gravis (MG) section with 50 questions, clinical notes, nursing priorities, answer explanations, mixed 20-question mock test, and browser-local progress tracking.
 
-## Included
-- Medical-Surgical Nursing starter topics: Shock, Myocardial Infarction, COPD, CKD, Stroke, Diabetes Mellitus
-- Topic-wise notes and MCQs with explanations
-- Quick mock test
-- Local progress tracking and JSON export
-- Responsive layout and basic offline/PWA support
+Important quality note: This is an evolving independent study resource, not affiliated with AIIMS and not an official/previous-year question bank. Some older topic banks are starter-level and use repeated question patterns; please do not treat the whole module as a finished, expertly validated comprehensive syllabus. The MG section was added as a focused learning module, but all clinical content should be cross-checked against current textbooks, institutional protocols, and qualified faculty/clinicians.
 
-## Run locally
-Open `index.html` in a modern browser. For full PWA/service-worker behavior, serve the folder over localhost or HTTPS.
+To update your existing GitHub Pages site from an Android phone:
+1. Download and extract NORCET12_MSN_Module.zip.
+2. Open your GitHub repository in Chrome and choose the repository root.
+3. For each of these files — index.html, sw.js, manifest.webmanifest, README.md — open the file and use the pencil/Edit or upload flow to replace it with the corresponding updated file. If GitHub offers “Add file → Upload files”, upload the four extracted files into the repository root and confirm replacement where prompted.
+4. Commit the changes to the main branch.
+5. Open your Pages URL and refresh. If the old version remains, clear site data/cache for that site or wait a little for GitHub Pages and the service worker to update.
 
-## Free deployment option: GitHub Pages
-1. Sign in or create a GitHub account.
-2. Create a new public repository, for example `norcet12-prep-hub`.
-3. Upload `index.html`, `manifest.webmanifest`, `sw.js`, and this README to the repository root.
-4. In the repository, open **Settings → Pages**.
-5. Under **Build and deployment**, choose **Deploy from a branch**.
-6. Choose branch `main` and folder `/(root)`, then click **Save**.
-7. Wait for the published URL shown on the Pages settings screen. It will usually resemble `https://YOUR-USERNAME.github.io/norcet12-prep-hub/`.
-8. Open the URL on your phone. Use your browser menu's **Add to Home screen** or **Install app** option if offered.
+GitHub Pages settings: Settings → Pages → Deploy from a branch → main → /(root).
 
-GitHub may take a few minutes to publish. Do not guess the URL; copy the exact URL shown by GitHub Pages.
-
-## Important
-This is an independent educational prototype and is not affiliated with AIIMS. Verify the latest official NORCET notification/syllabus and clinical guidelines. The content is a starter bank, not complete syllabus coverage or official previous-year questions. Progress is stored locally per browser/device; it is not synchronized between devices.
+Educational practice only. Questions are not official NORCET questions and do not replace the latest official syllabus, current clinical guidance, or supervised clinical judgement.
